@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cosmo's Math : Hamming Distance</title>
+    <link rel="stylesheet" href=/math/assets/css/styles.css>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        }
+      });
+      </script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div id="title">
+        <h1 class="left"><b>COSMO MEMORIES</b></h1>
+        <h1 class="right"><a href="https://cosmo-memories.github.io/">HOME</a><b> // </b>
+                          <a href="https://cosmo-memories.github.io/blog/">BLOG</a><b> // </b>
+                          <a href="https://github.com/cosmo-memories/">GITHUB</a></h1>
+        <h2>Mathematics Notes and References</h2>
+        <hr>
+        <div class="nav"><nav>
+  
+    &nbsp;
+    
+      <a href="/math/">Index</a>
+    
+    &nbsp;
+  
+    &nbsp;
+    
+      <a href="/math/topics.html">Topics</a>
+    
+    &nbsp;
+  
+    &nbsp;
+    
+      <a href="/math/about.html">About</a>
+    
+    &nbsp;
+  
+</nav></div>
+        <hr>
+      </div>
+
+      <p></p>
+<!-- <h1 id="post-head"></h1> -->
+<h1 id="post-head">Distance</h1> 
+<b>&nbsp; // &nbsp; Topics: </b>
+
+  <a href="/math/topics/coding theory.html">Coding Theory</a>
+
+
+<hr id="post-mid">
+
+<h2 id="hamming-distance">Hamming Distance</h2>
+<p>Named after <a href="https://en.wikipedia.org/wiki/Richard_Hamming">Richard Hamming</a>, the <strong><em>hamming distance</em></strong> (or simply <strong>distance</strong>) between two words (of the <strong>same length <em>n</em></strong>, over the same alphabet) is <strong>the number of places in which they differ</strong>. Equivalently, it is the minimum number of positions that need to be modified in order to transform one word into the other.</p>
+
+<p>The hamming distance between two words \(\pmb{\vec u}\) and \(\pmb{\vec v}\) is denoted by \(\pmb{d_H(\vec u, \vec v)}\) or simply \(\pmb{d(\vec u, \vec v)}\).</p>
+
+<hr id="post-mid" />
+
+<p>Given a code \(\pmb{C}\) containing words of fixed length \(\pmb{n}\), the hamming distance satisfies the following for all words \(\pmb{\vec u, \vec v, \vec w \in C}\):</p>
+
+<ul>
+  <li>
+    <p>Hamming distance is always positive:</p>
+
+    <p>\(\pmb{d(\vec u, \vec v) \geq 0}\).</p>
+  </li>
+  <li>
+    <p>The distance is the same regardless of “direction” (ie. which word is being modified into the other):</p>
+
+    <p>\(\pmb{d(\vec u, \vec v) = d(\vec v, \vec u)}\).</p>
+  </li>
+  <li>
+    <p>The distance between any two words is \(\pmb{0}\) if and only if the words are identical:</p>
+
+    <p>\(\pmb{d(\vec u, \vec v) = 0 \iff \vec u = \vec v}\).</p>
+  </li>
+  <li>
+    <p>Hamming distance satisfies the <a href="https://en.wikipedia.org/wiki/Triangle_inequality">triangle inequality</a>:</p>
+
+    <p>\(\pmb{d(\vec u, \vec v) + d(\vec v, \vec w) \geq d(\vec u, \vec w)}\).</p>
+  </li>
+  <li>
+    <p>The distance between two words is the same as the <strong>weight of their difference</strong>:</p>
+
+    <p>\(\pmb{d(\vec u, \vec v) = w(\vec v - \vec u)}\).</p>
+  </li>
+</ul>
+
+<hr id="post-mid" />
+
+<h2 id="distance-of-a-code">Distance of a Code</h2>
+
+<p>For a code \(\pmb{C}\) with size \(\pmb{\geq 2}\) (ie. containing at least two words), the <strong><em>distance of \(\pmb{C}\)</em></strong> is the <strong>minimum distance between any two distinct codewords</strong>. The distance of \(\pmb{C}\) is denoted by \(\pmb{d(C)}\).</p>
+
+
+      <hr>
+    </div>
+  </body>
+</html>

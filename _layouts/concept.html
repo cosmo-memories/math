@@ -5,8 +5,8 @@ layout: default
 <!-- <h1 id="post-head"></h1> -->
 <h1 id="post-head">{{ page.name }}</h1> 
 <b>&nbsp; // &nbsp; Topics: </b>
-{% for topic in site.topics %}
-  <a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.name }}</a>{% if forloop.last %}{% else %},{% endif %}
+{% for topic in page.topics %}
+  <a href="{{ site.baseurl }}/topics/{{ topic | downcase}}.html">{{ topic }}</a>{% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 
 <hr id="post-mid">

@@ -8,11 +8,13 @@ layout: default
   Pages in category {{ page.name }}:
   <ul>
   {% for concept in site.concepts %}
-    {% if concept.topic == topic %}
-      <li>
-        <h2><a href="{{ site.baseurl }}{{ concept.url }}">{{ concept.name }}</a></h2>
-      </li>
-    {% endif %}
+    {% for topic in concept.topics %}
+      {% if topic == page.name %}
+        <li>
+          <h2><a href="{{ site.baseurl }}{{ concept.url }}">{{ concept.name }}</a></h2>
+        </li>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
   </ul>
 </p>
