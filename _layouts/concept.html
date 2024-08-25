@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<p></p>
+<!-- <h1 id="post-head"></h1> -->
+<h1 id="post-head">{{ page.name }}</h1> 
+<b>&nbsp; // &nbsp; Topics: </b>
+{% for topic in site.topics %}
+  <a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.name }}</a>{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+
+<hr id="post-mid">
+
+{{ content }}

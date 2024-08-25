@@ -25,6 +25,21 @@ a {
   text-transform: uppercase;
 }
 
+#head-slim {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#post-mid {
+  width: 50%;
+  margin-left: 0;
+}
+
+#post-head {
+  display: inline;
+}
+
+
 .wrapper {
   max-width:800px;
   margin:0 auto;

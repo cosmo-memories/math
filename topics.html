@@ -1,13 +1,14 @@
 ---
-title: Cosmo's Math - Topics
+title: "Cosmo's Math : Topics"
 ---
-<h1>Topics</h1>
 
+<p></p>
+<h1 id="head-slim">Topics</h1>
+<hr id="post-mid">
 <ul>
   {% for topic in site.topics %}
     <li>
       <h2><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.name }}</a></h2>
-      <p>{{ topic.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>

@@ -1,6 +1,8 @@
 collections:
   topics:
     output: true
+  concepts:
+    output: true
 
 defaults:
   - scope:
@@ -8,11 +10,16 @@ defaults:
       type: "topics"
     values:
       layout: "topic"
+  # - scope:
+  #     path: ""
+  #     type: "posts"
+  #   values:
+  #     layout: "post"
   - scope:
       path: ""
-      type: "posts"
+      type: "concepts"
     values:
-      layout: "post"
+      layout: "concept"
   - scope:
       path: ""
     values:

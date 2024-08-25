@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
-
-{{ content }}
+<p></p>
+<h1 id="head-slim">{{ page.name }}</h1>
+<hr id="post-mid">
+<p>
+  Pages in category {{ page.name }}:
+  <ul>
+  {% for concept in site.concepts %}
+    {% if concept.topic == topic %}
+      <li>
+        <h2><a href="{{ site.baseurl }}{{ concept.url }}">{{ concept.name }}</a></h2>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</p>
