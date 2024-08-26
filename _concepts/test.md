@@ -1,7 +1,7 @@
 ---
 name: Test
 title: "Cosmo's Math : Test"
-topics: [Coding Theory, Discrete Mathematics]
+topics: [Linear Algebra, Discrete Mathematics]
 ---
 This is a test page to make sure things are working!
 

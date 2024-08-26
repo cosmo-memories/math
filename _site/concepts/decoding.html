@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cosmo's Math : Test</title>
+    <title>Cosmo's Math : Decoding</title>
     <link rel="stylesheet" href=/math/assets/css/styles.css>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script type="text/x-mathjax-config">
@@ -51,22 +51,27 @@
 
       <p></p>
 <!-- <h1 id="post-head"></h1> -->
-<h1 id="post-head">Test</h1> 
+<h1 id="post-head">Decoding</h1> 
 <b>&nbsp; // &nbsp; Topics: </b>
 
-  <a href="/math/topics/linear algebra.html">Linear Algebra</a>,
-
-  <a href="/math/topics/discrete mathematics.html">Discrete Mathematics</a>
+  <a href="/math/topics/coding theory.html">Coding Theory</a>
 
 
 <hr id="post-mid">
 
-<p>This is a test page to make sure things are working!</p>
+<h2 id="minimum-distance-decoding">Minimum Distance Decoding</h2>
 
-<p>Here is some sample MathJax:</p>
-<p>
-  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-</p>
+<p>Also known as <strong>nearest neighbour decoding</strong>, this method decodes a received word \(\pmb {\vec v}\) to the codeword with the smallest Hamming distance from \(\pmb {\vec v}\). In other words, \(\pmb {\vec v}\) is decoded to a codeword \(\pmb {\vec u \in C}\) such that:</p>
+
+\[\pmb {d(\vec v, \vec u) = min \{ \ d(\vec v, \vec c) \ \vert \ \vec c \in C \ \}}\]
+
+<p>When transmission occurs over a <strong>binary symmetric channel</strong> with probability of error \(\pmb {0 \leq p \lt {1 \over 2} }\), minimum distance decoding is equivalent to <strong>maximum likelihood decoding</strong>.</p>
+
+<hr id="post-mid" />
+
+<h2 id="maximum-likelihood-decoding">Maximum Likelihood Decoding</h2>
+
+<p><strong>Maximum likelihood decoding</strong> decodes the received word \(\pmb {\vec v}\) to a codeword \(\pmb {\vec u \in C}\) that maximizes \(\pmb {P(\vec u \ \text{sent} \ \vert \ \vec v \ \text{received})}\), the probability that codeword \(\pmb {\vec u}\) was sent given that \(\pmb {\vec v}\) was received; see <a href="/math/concepts/bayes.html">Bayes’ theorem</a>.</p>
 
 
       <hr>

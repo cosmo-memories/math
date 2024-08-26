@@ -32,6 +32,12 @@ Given a code $$\pmb{C}$$ containing words of fixed length $$\pmb{n}$$, the hammi
 
     $$\pmb{d(\vec u, \vec v) = w(\vec v - \vec u)}$$.
 
+For two __binary__ codewords $$\pmb{\vec u = (u_1, u_2, . . . , u_n)}$$ and $$\pmb{\vec v = (v_1, v_2, . . . , v_n)}$$:
+
+* The __intersection__ of $$\pmb{\vec u}$$ and $$\pmb{\vec v}$$ is the vector that has __1__ at each position where both vectors also have __1__:
+
+    $$\pmb{\vec u \cap \vec v = (u_1 v_1, u_2 v_2, . . . , u_n v_n)}$$.
+
 <hr id="post-mid">
 
 ## Distance of a Code
