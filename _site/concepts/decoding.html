@@ -59,13 +59,23 @@
 
 <hr id="post-mid">
 
+<h2 id="detection">Detection</h2>
+
+<p>If \(\pmb {d_H(C) \geq k + 1}\), \(\pmb {C}\) is a <strong><em>k error detecting</em></strong> code, and can <strong><em>detect</em> up to <em>k</em> errors</strong> in a received codeword.</p>
+
+<h2 id="correction">Correction</h2>
+
+<p>If \(\pmb {d_H(C) \geq 2k + 1}\), \(\pmb {C}\) is a <strong><em>k error correcting</em></strong> code, and can <strong><em>correct</em> up to <em>k</em> errors</strong> in a received codeword.</p>
+
+<hr id="post-mid" />
+
 <h2 id="minimum-distance-decoding">Minimum Distance Decoding</h2>
 
 <p>Also known as <strong>nearest neighbour decoding</strong>, this method decodes a received word \(\pmb {\vec v}\) to the codeword with the smallest Hamming distance from \(\pmb {\vec v}\). In other words, \(\pmb {\vec v}\) is decoded to a codeword \(\pmb {\vec u \in C}\) such that:</p>
 
-\[\pmb {d(\vec v, \vec u) = min \{ \ d(\vec v, \vec c) \ \vert \ \vec c \in C \ \}}\]
+\[\pmb {d_H(\vec v, \vec u) = \text{min} \{ \ d(\vec v, \vec c) \ \vert \ \vec c \in C \ \}}\]
 
-<p>When transmission occurs over a <strong>binary symmetric channel</strong> with probability of error \(\pmb {0 \leq p \lt {1 \over 2} }\), minimum distance decoding is equivalent to <strong>maximum likelihood decoding</strong>.</p>
+<p>When transmission occurs over a <strong>binary symmetric channel</strong> with probability of error \(\pmb {0 \leq p \lt {1 \over 2} }\), minimum distance decoding is equivalent to <strong>maximum likelihood decoding</strong>; \(\pmb {P(\vec u \ \text{sent} \ \vert \ \vec v \ \text{received})}\) is maximal when \(\pmb {d(\vec v, \vec u)}\) is minimal.</p>
 
 <hr id="post-mid" />
 

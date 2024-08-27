@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cosmo's Math : Groups & Fields</title>
+    <link rel="stylesheet" href=/math/assets/css/styles.css>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        }
+      });
+      </script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div id="title">
+        <h1 class="left"><b>COSMO MEMORIES</b></h1>
+        <h1 class="right"><a href="https://cosmo-memories.github.io/">HOME</a><b> // </b>
+                          <a href="https://cosmo-memories.github.io/blog/">BLOG</a><b> // </b>
+                          <a href="https://github.com/cosmo-memories/">GITHUB</a></h1>
+        <h2>Mathematics Notes and References</h2>
+        <hr>
+        <div class="nav"><nav>
+  
+    &nbsp;
+    
+      <a href="/math/">Index</a>
+    
+    &nbsp;
+  
+    &nbsp;
+    
+      <a href="/math/topics.html">Topics</a>
+    
+    &nbsp;
+  
+    &nbsp;
+    
+      <a href="/math/about.html">About</a>
+    
+    &nbsp;
+  
+</nav></div>
+        <hr>
+      </div>
+
+      <p></p>
+<!-- <h1 id="post-head"></h1> -->
+<h1 id="post-head">Groups & Fields</h1> 
+<b>&nbsp; // &nbsp; Topics: </b>
+
+  <a href="/math/topics/group theory.html">Group Theory</a>
+
+
+<hr id="post-mid">
+
+<h2 id="groups">Groups</h2>
+
+<p>A <strong><em>group</em></strong> is an ordered pair \(\pmb {(G, \cdot)}\), where \(\pmb {G}\) is a <strong>non-empty set of elements</strong>, and \(\pmb {\cdot}\) is an associated <strong>binary operation</strong>. This operation associates each pair of elements in the set with another element in the set. This operation must satisfy the following three <strong><em>group axioms</em></strong>:</p>
+
+<ul>
+  <li>
+    <p><strong>Associativity</strong>:</p>
+
+    <p>For all \(\pmb {a, b, c \in G}\), it holds that \(\pmb {(a \cdot b) \cdot c = a \cdot (b \cdot c)}\).</p>
+  </li>
+  <li>
+    <p><strong>Identity element</strong>:</p>
+
+    <p>There is a unique element \(\pmb {e \in G}\) such that, for all \(\pmb {a \in G}\), it holds that \(\pmb {e \cdot a = a \cdot e = a}\).</p>
+  </li>
+  <li>
+    <p><strong>Inverse elements</strong>:</p>
+
+    <p>For each element \(\pmb {a \in G}\), there exists a unique element \(\pmb {a^{-1} \in G}\) such that \(\pmb {a \cdot a^{-1} = a^{-1} \cdot a = e}\).</p>
+  </li>
+</ul>
+
+<p>Additionally, a group is <strong><em>abelian</em></strong> if the following also holds:</p>
+
+<ul>
+  <li>
+    <p><strong>Commutativity</strong>:</p>
+
+    <p>For all \(\pmb {a, b \in G}\), it holds that \(\pmb {a \cdot b = b \cdot a}\).</p>
+  </li>
+</ul>
+
+<hr id="post-mid" />
+
+<h2 id="fields">Fields</h2>
+
+<p>A <strong><em>field</em></strong> is a set of elements (\({\pmb {\mathbb F}}\)) together with <strong>two binary operations</strong> (\(\pmb {+}\) and \(\pmb {\cdot}\)) defined on the set. As with groups, each binary operation takes a pair of elements from the set and associates them with another element of the set. The following properties must be satisfied:</p>
+
+<ul>
+  <li>
+    <p><strong>Closure</strong>:</p>
+
+    <p>\({\pmb {\mathbb F}}\) is closed under \(\pmb {+}\) and \(\pmb {\cdot}\). For all \(\pmb {a, b \in \mathbb F}\), it holds that \(\pmb {a + b \in \mathbb F}\) and \(\pmb {a \cdot b \in \mathbb F}\).</p>
+  </li>
+  <li>
+    <p><strong>Associativity</strong>:</p>
+
+    <p>For all \(\pmb {a, b, c \in \mathbb F}\), it holds that \(\pmb {(a + b) + c = a + (b + c)}\) and \(\pmb {(a \cdot b) \cdot c = a \cdot (b \cdot c)}\).</p>
+  </li>
+  <li>
+    <p><strong>Commutativity</strong>:</p>
+
+    <p>For all \(\pmb {a, b \in \mathbb F}\), it holds that \(\pmb {a + b = b + a}\) and \(\pmb {a \cdot b = b \cdot a}\).</p>
+  </li>
+  <li>
+    <p><strong>Distributivity</strong>:</p>
+
+    <p>For all \(\pmb {a, b, c \in \mathbb F}\), it holds that \(\pmb {a \cdot (b + c) = a \cdot b + a \cdot c}\).</p>
+  </li>
+  <li>
+    <p><strong>Additive identity</strong>:</p>
+
+    <p>There is a unique element \(\pmb {0 \in \mathbb F}\) such that, for all \(\pmb {a \in \mathbb F}\), it holds that \(\pmb {a + 0 = a}\).</p>
+  </li>
+  <li>
+    <p><strong>Multiplicative identity</strong>:</p>
+
+    <p>There is a unique element \(\pmb {1 \in \mathbb F}\), \(\pmb {1 \neq 0}\) such that, for all \(\pmb {a \in \mathbb F}\), it holds that \(\pmb {a \cdot 1 = a}\).</p>
+  </li>
+  <li>
+    <p><strong>Additive inverses</strong>:</p>
+
+    <p>For each element \(\pmb {a \in \mathbb F}\), there exists a unique element \(\pmb {-a \in \mathbb F}\) such that \(\pmb {a + (-a) = 0}\).</p>
+  </li>
+  <li>
+    <p><strong>Multiplicate inverses</strong>:</p>
+
+    <p>For each element \(\pmb {a \in \mathbb F}\), \(\pmb {a \neq 0}\), there exists a unique element \(\pmb {a^{-1} \in \mathbb F}\) such that \(\pmb {a \cdot a^{-1} = 1}\).</p>
+  </li>
+</ul>
+
+<p>Note that \(\pmb {(\mathbb F, +)}\) and \(\pmb {(\mathbb F \setminus \{ 0 \}, \cdot)}\) are both abelian groups, and a field may thus be viewed as a “marriage” of two abelian groups via distributivity.</p>
+
+
+      <hr>
+    </div>
+  </body>
+</html>
