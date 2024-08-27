@@ -10,9 +10,9 @@ The hamming distance between two words $$\pmb{\vec u}$$ and $$\pmb{\vec v}$$ is 
 
 <hr id="post-mid">
 
-Given a code $$\pmb{C}$$ containing words of fixed length $$\pmb{n}$$, the hamming distance satisfies the following for all words $$\pmb{\vec u, \vec v, \vec w \in C}$$:
+Given a code $$\pmb{C}$$ containing words of fixed length $$\pmb{n}$$, the following are satisfied for all words $$\pmb{\vec u, \vec v, \vec w \in C}$$:
 
-* Hamming distance is always positive:
+* Hamming distance is always non-negative:
 
     $$\pmb{d(\vec u, \vec v) \geq 0}$$.
 
