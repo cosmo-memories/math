@@ -64,3 +64,9 @@ A ___field___ is a set of elements ($${\pmb {\mathbb F}}$$) together with __two 
     For each element $$\pmb {a \in \mathbb F}$$, $$\pmb {a \neq 0}$$, there exists a unique element $$\pmb {a^{-1} \in \mathbb F}$$ such that $$\pmb {a \cdot a^{-1} = 1}$$.
 
 Note that $$\pmb {(\mathbb F, +)}$$ and $$\pmb {(\mathbb F \setminus \{ 0 \}, \cdot)}$$ are both abelian groups, and a field may thus be viewed as a "marriage" of two abelian groups via distributivity.
+
+$$\pmb {\mathbb Z _m = \{ 0, 1, . . ., m - 1\}}$$ is a field if and only if __$$\pmb {m}$$ is a prime number__.
+
+In general, for $$\pmb {m \in \mathbb Z^+}$$, there exists a (finite) field with $$\pmb {m}$$ elements if and only if __$$\pmb {m}$$ is a prime power__; in other words, $$\pmb {m = p^n}$$ for some prime $$\pmb {p}$$. Aditionally, if $$\pmb {m}$$ is a prime power, then the field with $$\pmb {m}$$ elements is __unique__; such a field is known as a ___Galois field___ (or ___[finite field](https://en.wikipedia.org/wiki/Finite_field)___) and is denoted by $$\pmb {GF(m)}$$.
+
+If $$\pmb {m}$$ is prime, then $$\pmb {GF(m) = \mathbb Z _m}$$.

@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cosmo's Math : Vector Spaces</title>
+    <link rel="stylesheet" href=/math/assets/css/styles.css>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        }
+      });
+      </script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div id="title">
+        <h1 class="left"><b>COSMO MEMORIES</b></h1>
+        <h1 class="right"><a href="https://cosmo-memories.github.io/">HOME</a><b> // </b>
+                          <a href="https://cosmo-memories.github.io/blog/">BLOG</a><b> // </b>
+                          <a href="https://github.com/cosmo-memories/">GITHUB</a></h1>
+        <h2>Mathematics Notes and References</h2>
+        <hr>
+        <div class="nav"><nav>
+  
+    &nbsp;
+    
+      <a href="/math/">Index</a>
+    
+    &nbsp;
+  
+    &nbsp;
+    
+      <a href="/math/topics.html">Topics</a>
+    
+    &nbsp;
+  
+    &nbsp;
+    
+      <a href="/math/about.html">About</a>
+    
+    &nbsp;
+  
+</nav></div>
+        <hr>
+      </div>
+
+      <p></p>
+<!-- <h1 id="post-head"></h1> -->
+<h1 id="post-head">Vector Spaces</h1> 
+<b>&nbsp; // &nbsp; Topics: </b>
+
+  <a href="/math/topics/group theory.html">Group Theory</a>,
+
+  <a href="/math/topics/coding theory.html">Coding Theory</a>,
+
+  <a href="/math/topics/linear algebra.html">Linear Algebra</a>
+
+
+<hr id="post-mid">
+
+<p>Let \(\pmb {\mathbb F}\) be a field whose elements are called <strong><em>scalars</em></strong>.</p>
+
+<p>Let \(\pmb {V}\) be a <strong>non-empty set</strong> whose elements are called <strong>vectors</strong>.</p>
+
+<p>A <strong><em>vector space over a field \(\pmb {\mathbb F}\)</em></strong> consists of a non-empty set of vectors \(\pmb {V}\) together with a <strong>binary operation \(\pmb {+}\)</strong> (<strong><em>vector addition</em></strong>) and a <strong>binary function</strong> (<strong><em>scalar multiplication</em></strong>). The following properties must be satisfied for all \(\pmb {\vec u, \vec v, \vec w \in V}\) and all \(\pmb {a, b \in \mathbb F}\):</p>
+
+<ul>
+  <li>
+    <p>Vector addition (\(\pmb {+}\)) is <strong>associative</strong> and <strong>commutative</strong>:</p>
+
+    <p>\(\pmb {\vec u + (\vec v + \vec w) = (\vec u + \vec v) + \vec w}\).</p>
+
+    <p>\(\pmb {\vec u + \vec v = \vec v + \vec u}\).</p>
+  </li>
+  <li>
+    <p>Vector addition has an <strong>identity element</strong>:</p>
+
+    <p>There exists an element \(\pmb {\vec 0 \in V}\), the <strong><em>zero vector</em></strong>, such that \(\pmb {\vec v + \vec 0 = \vec v}\) for all \(\pmb {\vec v \in V}\).</p>
+  </li>
+  <li>
+    <p>Vector addition has <strong>inverse elements</strong>:</p>
+
+    <p>For each \(\pmb {\vec v \in V}\), there exists an element \(\pmb {\vec {-v} \in V}\) such that \(\pmb {\vec v + (\vec {-v}) = \vec 0}\).</p>
+  </li>
+  <li>
+    <p>\(\pmb {V}\) is <strong>closed</strong> under scalar multiplication:</p>
+
+    <p>\(\pmb {a \vec v \in V}\).</p>
+  </li>
+  <li>
+    <p>Scalar multiplication is <strong>distributive</strong>:</p>
+
+    <p>\(\pmb {a ( \vec u + \vec v) = a \vec u + a \vec v}\).</p>
+
+    <p>\(\pmb {(a + b) \vec v = a \vec v + b \vec v}\).</p>
+  </li>
+  <li>
+    <p>Scalar multiplication has an <strong>identity element</strong>:</p>
+
+    <p>\(\pmb {1 \vec v = \vec v}\), where \(\pmb {1}\) is the multiplicative identity of \(\pmb {\mathbb F}\).</p>
+  </li>
+  <li>
+    <p>Scalar multiplication is compatible with field multiplication:</p>
+
+    <p>\(\pmb {a(b\vec v) = (ab) \vec v}\).</p>
+  </li>
+</ul>
+
+<p>The (unique) <strong><em>n-dimensional vector space over <a href="/math/concepts/fields.html">\(\pmb {GF(q)}\)</a></em></strong> is denoted by \(\pmb {V = V(n, q)}\).</p>
+
+
+      <hr>
+    </div>
+  </body>
+</html>
