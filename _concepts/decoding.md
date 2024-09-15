@@ -1,6 +1,6 @@
 ---
 name: Decoding
-title: "Cosmo's Math : Decoding"
+title: "Daguerreo : Decoding"
 topics: Coding Theory
 ---
 

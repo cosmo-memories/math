@@ -1,6 +1,6 @@
 ---
 name: Bijection
-title: "Cosmo's Math : Bijection"
+title: "Daguerreo : Bijection"
 topics: Set Theory
 ---
 A ___bijection___ between two sets is a __function $$\pmb {f: X \rightarrow Y}$$__ that is both __injective__ and __surjective__.

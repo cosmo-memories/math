@@ -1,5 +1,5 @@
 ---
 name: Group Theory
-title: "Cosmo's Math : Group Theory"
+title: "Daguerreo : Group Theory"
 ---
 Hello world!

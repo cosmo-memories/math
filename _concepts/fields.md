@@ -1,6 +1,6 @@
 ---
 name: Groups & Fields
-title: "Cosmo's Math : Groups & Fields"
+title: "Daguerreo : Groups & Fields"
 topics: Group Theory
 ---
 ## Groups

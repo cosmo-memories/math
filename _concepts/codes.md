@@ -1,6 +1,6 @@
 ---
 name: Codes & Alphabets
-title: "Cosmo's Math : Codes & Alphabets"
+title: "Daguerreo : Codes & Alphabets"
 topics: Coding Theory
 ---
 ## Alphabets

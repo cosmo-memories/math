@@ -1,5 +1,5 @@
 ---
-title: "Cosmo's Math : About"
+title: "Daguerreo : About"
 ---
 <p></p>
 <h1 id="head-slim">About This Site</h1>

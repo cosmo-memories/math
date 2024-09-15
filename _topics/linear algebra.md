@@ -1,5 +1,5 @@
 ---
 name: Linear Algebra
-title: "Cosmo's Math : inear Algebra"
+title: "Daguerreo : Linear Algebra"
 ---
 Hello world!

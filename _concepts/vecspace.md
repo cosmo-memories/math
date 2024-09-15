@@ -1,6 +1,6 @@
 ---
 name: Vector Spaces
-title: "Cosmo's Math : Vector Spaces"
+title: "Daguerreo : Vector Spaces"
 topics: [Group Theory, Coding Theory, Linear Algebra]
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: Binary Symmetric Channel
-title: "Cosmo's Math : Binary Symmetric Channel"
+title: "Daguerreo : Binary Symmetric Channel"
 topics: Coding Theory
 ---
 A ___binary symmetric channel___ is a hypothetical noisy communication channel used to model error probability. We use the __binary alphabet {0, 1}__, and assume that the probability of an error occuring is __independent__ for each bit transmitted.

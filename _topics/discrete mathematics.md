@@ -1,5 +1,5 @@
 ---
 name: Discrete Mathematics
-title: "Cosmo's Math : Discrete Mathematics"
+title: "Daguerreo : Discrete Mathematics"
 ---
 Hello world!

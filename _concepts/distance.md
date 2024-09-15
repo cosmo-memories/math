@@ -1,6 +1,6 @@
 ---
 name: Distance
-title: "Cosmo's Math : Hamming Distance"
+title: "Daguerreo : Hamming Distance"
 topics: Coding Theory
 ---
 ## Hamming Distance

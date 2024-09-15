@@ -1,5 +1,5 @@
 ---
 name: Probability
-title: "Cosmo's Math : Probability"
+title: "Daguerreo : Probability"
 ---
 Hello world!

@@ -1,5 +1,5 @@
 ---
 name: Coding Theory
-title: "Cosmo's Math : Coding Theory"
+title: "Daguerreo : Coding Theory"
 ---
 Hello world!
