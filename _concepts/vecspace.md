@@ -43,3 +43,21 @@ A ___vector space over a field $$\pmb {\mathbb F}$$___ consists of a non-empty s
     $$\pmb {a(b\vec v) = (ab) \vec v}$$.
 
 The (unique) ___n-dimensional vector space over [$$\pmb {GF(q)}$$]({{ site.baseurl }}/concepts/fields.html)___ is denoted by $$\pmb {V = V(n, q)}$$.
+
+<hr id="post-mid">
+
+## Subspaces
+
+A ___subspace___ of $$\pmb {V}$$ is a subset of $$\pmb {V}$$ that still fulfils the above conditions and thus is also a vector space.
+
+Note that $$\pmb {V}$$ is also a subspace of itself, and that $$\pmb {\{ \vec 0 \}}$$ is a subspace of every vector space.
+
+To show that a non-empty subset $$\pmb {X \subseteq V}$$ over a field $$\pmb {\mathbb F}$$ is a subspace, show that $$\pmb {X}$$ is
+
+* Closed under vector addition:
+
+    If $$\pmb {\vec u, \vec v \in X}$$, then $$\pmb {\vec u + \vec v \in X}$$.
+
+* Closed under scalar multiplication:
+
+    If $$\pmb {a \in \mathbb F}$$, then $$\pmb {a \vec v \in X}$$.
