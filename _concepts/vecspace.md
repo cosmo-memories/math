@@ -42,7 +42,15 @@ A ___vector space over a field $$\pmb {\mathbb F}$$___ consists of a non-empty s
 
     $$\pmb {a(b\vec v) = (ab) \vec v}$$.
 
-The (unique) ___n-dimensional vector space over [$$\pmb {GF(q)}$$]({{ site.baseurl }}/concepts/fields.html)___ is denoted by $$\pmb {V = V(n, q)}$$.
+The (unique) ___n-dimensional vector space over [$$\pmb {GF(q)}$$]({{ site.baseurl }}/concepts/fields.html)___ is denoted by $$\pmb {V = V(n, q)}$$. 
+
+<hr id="post-mid">
+
+## In Coding Theory
+
+If __$$\pmb {q}$$ is prime__, then the vector space $$\pmb {V(n, q)}$$ consists of all words of length $$\pmb {n}$$ over the alphabet $$\pmb {\{ 0, 1, . . . , p-1 \}}$$. As such, any code of length $$\pmb {n}$$ over this alphabet is a __subset of $$\pmb {V(n,q)}$$__.
+
+If this subset is also a __subspace__ (see below), then the code is __[linear]({{ site.baseurl }}/concepts/codes.html)__.
 
 <hr id="post-mid">
 

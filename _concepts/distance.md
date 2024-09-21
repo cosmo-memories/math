@@ -43,3 +43,5 @@ For two __binary__ codewords $$\pmb{\vec u = (u_1, u_2, . . . , u_n)}$$ and $$\p
 ## Distance of a Code
 
 For a code $$\pmb{C}$$ with size $$\pmb{\geq 2}$$ (ie. containing at least two words), the ___distance of $$\pmb{C}$$___ is the __minimum distance between any two distinct codewords__. The distance of $$\pmb{C}$$ is denoted by $$\pmb{d(C)}$$.
+
+If $$\pmb {C}$$ is a __linear code__, then $$\pmb {d(C)}$$ is equal to the __minimum weight of all non-zero codewords__.
