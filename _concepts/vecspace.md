@@ -42,7 +42,7 @@ A ___vector space over a field $$\pmb {\mathbb F}$$___ consists of a non-empty s
 
     $$\pmb {a(b\vec v) = (ab) \vec v}$$.
 
-The (unique) ___n-dimensional vector space over [$$\pmb {GF(q)}$$]({{ site.baseurl }}/concepts/fields.html)___ is denoted by $$\pmb {V = V(n, q)}$$. 
+The (unique) ___n-dimensional vector space over [$$\pmb {GF(q)}$$]({{ site.baseurl }}/concepts/fields.html)___ is denoted by $$\pmb {V = V(n, q)}$$. This space contains $$\pmb {q^n}$$ unique vectors.
 
 <hr id="post-mid">
 

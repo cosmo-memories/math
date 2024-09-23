@@ -14,18 +14,4 @@ A ___$$\pmb {q}$$-ary code___, usually denoted by $$\pmb {C}$$, is a (non-empty)
 
 ### Linear Codes
 
-A ___linear code $$\pmb {C}$$___ over $$\pmb {GF(q)}$$ consists of vectors which form a __subspace of [$$\pmb {V(n, q)}$$]({{ site.baseurl }}/concepts/vecspace.html)__.
-
-Linear codes are commonly discussed in terms of their paramaters:
-
-* $$\pmb {n}$$: the __length__ of $$\pmb {C}$$, that is, the number of symbols in a codeword.
-
-* $$\pmb {k}$$: the __dimension__ of $$\pmb {C}$$; see [vector spaces]({{ site.baseurl }}/concepts/vecspace.html).
-
-* $$\pmb {d}$$: the __distance__ of $$\pmb {C}$$, which for linear codes is equal to the minimum weight of all non-zero codewords.
-
-A linear code with the above parameters is called an ___$$\pmb {[n, k, d]}$$-code___ or ___$$\pmb {[n, k, d]_q}$$-code___.
-
-The ___size___ of $$\pmb {C}$$ refers to the number of codewords, and is equal to $$\pmb {q^k}$$.
-
-It is common to represent a linear code in the form of a ___generator matrix___ _[link forthcoming]_.
+A ___[linear code]({{ site.baseurl }}/concepts/linearcodes.html) $$\pmb {C}$$___ over $$\pmb {GF(q)}$$ consists of vectors which form a __subspace of [$$\pmb {V(n, q)}$$]({{ site.baseurl }}/concepts/vecspace.html)__.
