@@ -40,3 +40,11 @@ There may be many different generator matrices for a given $$\pmb {C}$$. Applyin
 * Adding a row to another row.
 
 This is due to the fact that row operations preserve linear independence. The new rows are merely linear combinations of the original rows. This also means that a generator matrix can be produced which is in ___reduced row echelon form__ [link forthcoming]_.
+
+## Standard Coding Form
+
+$$\pmb {G}$$ is in ___standard coding form___ if it is in the form $$\pmb {[I \vert A]}$$, where $$\pmb {I}$$ is the $$\pmb {k \times k}$$ identity matrix. $$\pmb {A}$$ is a $$\pmb {k \times (n - k)}$$ matrix.
+
+When a generator matrix is in standard coding form, the first $$\pmb {k}$$ symbols of any codeword will be the same as the message that it was encoded from, because multipling by the columns of the identity matrix does not change the result for the first $$\pmb {k}$$ positions.
+
+Note that __not all linear codes have a generator matrix in standard form__.

@@ -69,3 +69,15 @@ To show that a non-empty subset $$\pmb {X \subseteq V}$$ over a field $$\pmb {\m
 * Closed under scalar multiplication:
 
     If $$\pmb {a \in \mathbb F}$$, then $$\pmb {a \vec v \in X}$$.
+
+### Orthogonal Subspace
+
+If $$\pmb {W}$$ is a subspace of $$\pmb {V}$$, then the following set is also a subspace of $$\pmb {V}$$:
+
+$$\pmb {W^\perp = \{ \vec v \in V \vert \vec v \cdot \vec w = 0 \text{ for all } \vec w \in W \}}$$
+
+This subspace, $$\pmb {W^\perp}$$ (pronounced "W perp"), is called the ___orthogonal subspace of $$\pmb {W}$$___, and contains __every vector in $$\pmb {V}$$ that is orthogonal to every vector in $$\pmb {W}$$__. Note that $$\pmb {(W^\perp)^\perp = W}$$. Also note that, per the __Rank-Nullity theorem__ _[link forthcoming]_:
+
+$$\pmb {\dim (W) + \dim (W^\perp) = \dim (V)}$$
+
+In coding theory, if $$\pmb {C}$$ is a subspace of $$\pmb {V(n, q)}$$ (and therefore is a linear code), then $$\pmb {C^\perp}$$ is the ___dual code___ of $$\pmb {C}$$.
