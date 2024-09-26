@@ -117,6 +117,18 @@
 
 <p>Note that <strong>not all linear codes have a generator matrix in standard form</strong>.</p>
 
+<h2 id="parity-check-matrix">Parity Check Matrix</h2>
+
+<p>A <strong><em>parity check matrix for \(\pmb {C}\)</em></strong>, denoted by \(\pmb {H}\), is a <strong>generator matrix for \(\pmb {C^\perp}\)</strong> with dimensions \(\pmb {(n - k) \times n}\).</p>
+
+<p>For all \(\pmb {\vec v \in V(n, q)}\), it holds that <strong>\(\pmb {\vec v \in C}\) if and only if \(\pmb {\vec v \space H^T = \vec 0}\)</strong>. In other words, multiplying any vector in \(\pmb {V(n, q)}\) by the <strong>transpose of \(\pmb {H}\)</strong> lets us check if said vector is a codeword (if the result is zero) or not (the result is nonzero).</p>
+
+<p>If \(\pmb {G}\) is in <strong>standard coding form \(\pmb {[I_k \vert A_{k \times (n - k)}]}\)</strong> (see above), then \(\pmb {H}\) is of the form</p>
+
+\[\pmb {H = [-A^T_{(n - k) \times k} \vert I_{n - k}]}\]
+
+<p>Note that \(\pmb {A}\) here is <strong>negative</strong>, however, when working over a binary alphabet, \(\pmb {-A = A}\).</p>
+
 
       <hr>
     </div>

@@ -48,3 +48,15 @@ $$\pmb {G}$$ is in ___standard coding form___ if it is in the form $$\pmb {[I \v
 When a generator matrix is in standard coding form, the first $$\pmb {k}$$ symbols of any codeword will be the same as the message that it was encoded from, because multipling by the columns of the identity matrix does not change the result for the first $$\pmb {k}$$ positions.
 
 Note that __not all linear codes have a generator matrix in standard form__.
+
+## Parity Check Matrix
+
+A ___parity check matrix for $$\pmb {C}$$___, denoted by $$\pmb {H}$$, is a __generator matrix for $$\pmb {C^\perp}$$__ with dimensions $$\pmb {(n - k) \times n}$$.
+
+For all $$\pmb {\vec v \in V(n, q)}$$, it holds that __$$\pmb {\vec v \in C}$$ if and only if $$\pmb {\vec v \space H^T = \vec 0}$$__. In other words, multiplying any vector in $$\pmb {V(n, q)}$$ by the __transpose of $$\pmb {H}$$__ lets us check if said vector is a codeword (if the result is zero) or not (the result is nonzero).
+
+If $$\pmb {G}$$ is in __standard coding form $$\pmb {[I_k \vert A_{k \times (n - k)}]}$$__ (see above), then $$\pmb {H}$$ is of the form
+
+$$\pmb {H = [-A^T_{(n - k) \times k} \vert I_{n - k}]}$$
+
+Note that $$\pmb {A}$$ here is __negative__, however, when working over a binary alphabet, $$\pmb {-A = A}$$.

@@ -44,4 +44,4 @@ For two __binary__ codewords $$\pmb{\vec u = (u_1, u_2, . . . , u_n)}$$ and $$\p
 
 For a code $$\pmb{C}$$ with size $$\pmb{\geq 2}$$ (ie. containing at least two words), the ___distance of $$\pmb{C}$$___ is the __minimum distance between any two distinct codewords__. The distance of $$\pmb{C}$$ is denoted by $$\pmb{d(C)}$$.
 
-If $$\pmb {C}$$ is a __linear code__, then $$\pmb {d(C)}$$ is equal to the __minimum weight of all non-zero codewords__.
+If $$\pmb {C}$$ is a __linear code__, then $$\pmb {d(C)}$$ is equal to the __minimum weight of all non-zero codewords__. If $$\pmb {C}$$ has a [parity check matrix]({{ site.baseurl }}/concepts/linearcodes.html) $$\pmb {H}$$, then $$\pmb {d(C)}$$ is the minimum size of a set of linearly dependent columns of $$\pmb {H}$$; every possible combination of $$\pmb {d - 1}$$ columns are linearly indepenedent.
