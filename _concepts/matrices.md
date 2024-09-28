@@ -1,7 +1,7 @@
 ---
 name: Matrices
 title: "Daguerreo : Matrices"
-topics: [Linear Algebra]
+topics: Linear Algebra
 ---
 _[text forthcoming]_
 

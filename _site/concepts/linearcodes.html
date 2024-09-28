@@ -100,14 +100,27 @@
     <p>Multiplying a row by a non-zero scalar.</p>
   </li>
   <li>
-    <p>Swapping the position of two rows.</p>
+    <p>Interchanging the position of two rows.</p>
   </li>
   <li>
-    <p>Adding a row to another row.</p>
+    <p>Adding a (scalar multiple of a) row to another row.</p>
   </li>
 </ul>
 
 <p>This is due to the fact that row operations preserve linear independence. The new rows are merely linear combinations of the original rows. This also means that a generator matrix can be produced which is in <em><strong>reduced row echelon form</strong> [link forthcoming]</em>.</p>
+
+<p>Additionally, a generator matrix for an <a href="/math/concepts/codes.html">equivalent</a> (but <strong>not identical</strong>) code \(\pmb {C^*}\) may be obtained by any squence of the above operations as well as the following:</p>
+
+<ul>
+  <li>
+    <p>Multiplying a column by a non-zero scalar.</p>
+  </li>
+  <li>
+    <p>Interchanging the position of two columns.</p>
+  </li>
+</ul>
+
+<p>The produced matrix, \(\pmb {G^*}\), is a generator matrix for \(\pmb {C^*}\).</p>
 
 <h2 id="standard-coding-form">Standard Coding Form</h2>
 
@@ -115,7 +128,9 @@
 
 <p>When a generator matrix is in standard coding form, the first \(\pmb {k}\) symbols of any codeword will be the same as the message that it was encoded from, because multipling by the columns of the identity matrix does not change the result for the first \(\pmb {k}\) positions.</p>
 
-<p>Note that <strong>not all linear codes have a generator matrix in standard form</strong>.</p>
+<p>Note that <strong>not all linear codes have a generator matrix in standard form</strong>. However, every linear code is <strong>equivalent</strong> to some code that has a generator matrix in standard coding form.</p>
+
+<hr id="post-mid" />
 
 <h2 id="parity-check-matrix">Parity Check Matrix</h2>
 

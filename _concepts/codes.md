@@ -17,6 +17,8 @@ Two codes $$\pmb{C_1}$$ and $$\pmb{C_2}$$ are ___equivalent___ if one can be tra
 * [Permuting]({{ site.baseurl }}/concepts/permutation.html) positions of the code.
 * Permuting the symbols in a given fixed position.
 
+There exists a [bijection]({{ site.baseurl}}/concepts/bijection.html) $$\pmb {f: C_1 \to C_2}$$ such that, for all $$\pmb {\vec u, \vec v \in C_1}$$, $$\pmb {d(\vec u, \vec v) = d(f(\vec u), f(\vec v))}$$.
+
 ### Linear Codes
 
 A ___[linear code]({{ site.baseurl }}/concepts/linearcodes.html) $$\pmb {C}$$___ over $$\pmb {GF(q)}$$ consists of vectors which form a __subspace of [$$\pmb {V(n, q)}$$]({{ site.baseurl }}/concepts/vecspace.html)__.
