@@ -55,7 +55,7 @@ $$\pmb {G}$$ is in ___standard coding form___ if it is in the form $$\pmb {[I \v
 
 When a generator matrix is in standard coding form, the first $$\pmb {k}$$ symbols of any codeword will be the same as the message that it was encoded from, because multipling by the columns of the identity matrix does not change the result for the first $$\pmb {k}$$ positions.
 
-Note that __not all linear codes have a generator matrix in standard form__. However, every linear code is __equivalent__ to some code that has a generator matrix in standard coding form.
+Note that __not all linear codes have a generator matrix in standard form__. However, every linear code is __equivalent__ to some code that has a generator matrix in standard coding form, which it may be transformed into using the above operations.
 
 <hr id="post-mid">
 
