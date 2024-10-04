@@ -7,14 +7,21 @@ layout: default
 <p>
   Pages in category {{ page.name }}:
   <ul>
+  {% assign i = 0 %}
   {% for concept in site.concepts %}
     {% for topic in concept.topics %}
       {% if topic == page.name %}
-        <li>
-          <h2><a href="{{ site.baseurl }}{{ concept.url }}">{{ concept.name }}</a></h2>
-        </li>
+        {% assign i = i | plus:1 %}
+          <li>
+            <h2><a href="{{ site.baseurl }}{{ concept.url }}">{{ concept.name }}</a></h2>
+          </li>
       {% endif %}
     {% endfor %}
   {% endfor %}
+  {% if i == 0 %}
+    <li>
+      <b>No pages in this category (yet!)</b>
+    </li>
+  {% endif %}
   </ul>
 </p>
