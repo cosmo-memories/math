@@ -22,6 +22,10 @@ The cosets of $$\pmb {W}$$ form a partition of $$\pmb {V}$$; that is, every vect
 
 <hr id="post-mid">
 
-## Standard Array
+## Slepian Standard Array
 
-_[text forthcoming]_
+The ___standard array___ of a code $$\pmb {C}$$ in a structure that displays the cosets of $$\pmb {C}$$.
+
+Cosets are listed one per row; the first row is $$\pmb {\vec 0 + C}$$, which is simply __the set of all codewords__.
+
+For the following row, choose any __minimum weight vector__ $$\pmb {\vec v_1 \in V(n,q)}$$ and list $$\pmb {\vec v_1 + C}$$. Repeat until all vectors in $$\pmb {V}$$ are listed.
