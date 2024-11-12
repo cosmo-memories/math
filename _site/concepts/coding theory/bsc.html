@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Daguerreo : Redundancy</title>
+    <title>Daguerreo : Binary Symmetric Channel</title>
     <link rel="stylesheet" href=/math/assets/css/styles.css>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script type="text/x-mathjax-config">
@@ -23,7 +23,7 @@
         <h1 class="right"><a href="https://cosmo-memories.github.io/">HOME</a><b> // </b>
                           <a href="https://cosmo-memories.github.io/blog/">BLOG</a><b> // </b>
                           <a href="https://github.com/cosmo-memories/">GITHUB</a></h1>
-        <h2>DAGUERREO : MATHEMATICS REFERENCE</h2>
+        <h2>DAGUERREO : MATHEMATICS NOTES</h2>
         <hr>
         <div class="nav"><nav>
   
@@ -51,7 +51,7 @@
 
       <p></p>
 <!-- <h1 id="post-head"></h1> -->
-<h1 id="post-head">Redundancy</h1> 
+<h1 id="post-head">Binary Symmetric Channel</h1> 
 <b>&nbsp; // &nbsp; Topics: </b>
 
   <a href="/math/topics/coding theory.html">Coding Theory</a>
@@ -59,7 +59,13 @@
 
 <hr id="post-mid">
 
-<p>The <strong><em>redundancy</em></strong> of a code is the number of extra symbols added when encoding messages into codewords.</p>
+<p>A <strong><em>binary symmetric channel</em></strong> is a hypothetical noisy communication channel used to model error probability. We use the <strong>binary alphabet {0, 1}</strong>, and assume that the probability of an error occuring is <strong>independent</strong> for each bit transmitted.</p>
+
+<p>The probability of error is <strong><em>p</em></strong>, where <strong><em>\(0 \leq p \leq 1\)</em></strong>. In other words, a <strong>0</strong> is changed to a <strong>1</strong> with probability <strong><em>p</em></strong> and vice versa. The probability that an error does <em>not</em> occur is therefore <strong><em>p - 1</em></strong>.</p>
+
+<p>It is expected that <strong><em>\(p \lt {1 \over 2}\)</em></strong>, that is, the probability of error is less than <strong>50%</strong>. (If this was not the case, we could simply assume that all transmissions are incorrect, and thereby construct an equivalent channel with probability of error <strong><em>1 - p</em></strong>.)</p>
+
+<p>For more detail, see <a href="https://en.wikipedia.org/wiki/Binary_symmetric_channel">Wikipedia</a>.</p>
 
 
       <hr>

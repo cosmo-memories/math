@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Daguerreo : Bijection</title>
+    <title>Daguerreo : Bayes' Theorem</title>
     <link rel="stylesheet" href=/math/assets/css/styles.css>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script type="text/x-mathjax-config">
@@ -23,7 +23,7 @@
         <h1 class="right"><a href="https://cosmo-memories.github.io/">HOME</a><b> // </b>
                           <a href="https://cosmo-memories.github.io/blog/">BLOG</a><b> // </b>
                           <a href="https://github.com/cosmo-memories/">GITHUB</a></h1>
-        <h2>DAGUERREO : MATHEMATICS REFERENCE</h2>
+        <h2>DAGUERREO : MATHEMATICS NOTES</h2>
         <hr>
         <div class="nav"><nav>
   
@@ -51,27 +51,21 @@
 
       <p></p>
 <!-- <h1 id="post-head"></h1> -->
-<h1 id="post-head">Bijection</h1> 
+<h1 id="post-head">Bayes' Theorem</h1> 
 <b>&nbsp; // &nbsp; Topics: </b>
 
-  <a href="/math/topics/set theory.html">Set Theory</a>
+  <a href="/math/topics/probability.html">Probability</a>
 
 
 <hr id="post-mid">
 
-<p>A <strong><em>bijection</em></strong> between two sets is a <strong>function \(\pmb {f: X \rightarrow Y}\)</strong> that is both <strong>injective</strong> and <strong>surjective</strong>.</p>
+<p>Named after <a href="https://en.wikipedia.org/wiki/Thomas_Bayes">Thomas Bayes</a>, <strong>Bayes’ Theorem</strong> determines the likelihood of occurence of an event \(\pmb {A}\), given the occurence of another event \(\pmb {B}\). This is denoted by \(\pmb {P(A \vert B)}\), which reads as “<strong>the probability of \(\pmb {A}\) given \(\pmb {B}\)</strong>”.</p>
 
-<hr id="post-mid" />
+<p>\(\pmb {P(A)}\) and \(\pmb {P(B)}\) are the probabilities of \(\pmb {A}\) and \(\pmb {B}\) occuring without any specific conditions.</p>
 
-<h2 id="injective">Injective</h2>
+\[\pmb { P(A \vert B) = { {P(B \vert A)P(A)} \over P(B) } }\]
 
-<p>A function that is <strong><em>injective</em></strong> or “<strong><em>one-to-one</em></strong>” has every element in its codomain mapped to from <em>at most</em> one element of the domain.</p>
-
-<hr id="post-mid" />
-
-<h2 id="surjective">Surjective</h2>
-
-<p>A function that is <strong><em>surjective</em></strong> or “<strong><em>onto</em></strong>” has every element in its codomain mapped to from <em>at least</em> one element of the domain.</p>
+<p>For more on conditional probability, see <a href="https://en.wikipedia.org/wiki/Conditional_probability">Wikipedia</a>.</p>
 
 
       <hr>
