@@ -1,13 +1,20 @@
 ---
 title: "Daguerreo : Index"
 ---
-<p>
+<p></p>
 <h1 id="head-slim">Hello World!!</h1>
 <hr id="post-mid">
+<p>
+  Welcome to Daguerreo, my little library of math notes!
 </p>
 <p>
-  Working on it!
+  Find out more by visiting my <a href="{{ site.baseurl }}/about.html">About</a> page, or go ahead and browse a category below!
 </p>
-<p>
-  Not much here yet. Use the Topics link above to browse the currently available pages.
-</p>
+<hr id="post-mid">
+<ul>
+  {% for topic in site.topics %}
+    <li>
+      <h2><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.name }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
